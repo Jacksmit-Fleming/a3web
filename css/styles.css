@@ -1,0 +1,192 @@
+/***********/
+/* Initial */
+/***********/
+body {
+    line-height: 1.25;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+header {
+    color: #fffefb;
+    font-family: 'Neucha', Helvetica, sans-serif;
+    text-align: center;
+    background-image: url("../img/cake-overlay.jpg");
+}
+
+#logo {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-top: 32px;
+}
+
+
+#Site-title {
+    font-size: 40px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+#navigation {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.navigation-list {
+    font-size: 22px;
+    border: 1px solid #fffefb;
+    
+}
+
+#nav-item {
+    color: #fffefb;
+    display: block;
+    text-decoration: none;
+    padding: 16px;
+}
+
+a {
+    color: #763523;
+}
+
+main {
+    line-height: 1.25;
+    font-size: 16px;
+    font-family: 'IBM Plex Serif', Georgia, serif;
+    padding-top: 16px;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-bottom: 48px;
+}
+
+h1 {
+    font-size: 32px;
+    font-family: 'Neucha', Helvetica, sans-serif;
+}
+
+h2 {
+    font-size: 28px;
+    font-family: 'Neucha', Helvetica, sans-serif;
+}
+
+h3 {
+    font-size: 24px;
+    font-family: 'Neucha', Helvetica, sans-serif;
+}
+
+#about-spelt {
+    border-radius: 8px;
+    background-color: #ede2cd;
+    margin-left: 16px;
+    margin-right: 16px;
+    padding: 16px;
+}
+
+#Grains-citation {
+    text-align: right;
+}
+
+table {
+    text-align: center;
+    border-collapse: collapse;
+}
+
+td, th {
+    border: 1px solid black;
+    padding-top: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 8px;
+}
+
+th {
+    background-color: #ede2cd;
+}
+
+ul {
+    margin: 0;
+}
+
+.pizza-steps {
+    height: auto;
+    width: auto;
+    max-height: 400px;
+    max-width: 100%;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+
+.Vegan {
+    position: relative;
+}
+
+.Vegan .popup {
+    visibility: hidden;
+    width: 200px;
+    background-color: black;
+    color: #fffefb;
+    padding: 16px;
+    border-radius: 6px;
+    opacity: 0;
+    position: absolute;
+    top: -8px;
+    left: -16px;
+}
+
+.Vegan:hover .popup {
+    visibility: visible;
+    transition: opacity 2s;
+    opacity: 1;
+    
+}
+
+.quantity-button {
+    color: #763523;
+    font-size: 1em;
+    display: inline-block;
+    margin: 0 8px 16px 8px;
+    padding: 8px 16px;
+    border-radius: 6px;
+}
+
+.directions {
+    padding-left: 3.5em;
+    position: relative;
+}
+
+.directions li {
+	margin: 0 0 1.0em 0.5em;
+}
+
+.directions li.hidden {
+	position: absolute;
+	left: -9999em;
+}
+
+.directions li .hide-direction {
+	position: absolute;
+	left: 0;
+
+	font-size: 1em;
+	color: #763523;
+	background-color: #fffefb;
+	
+	border-radius: 50%;
+}
+
+footer {
+    font-family: 'IBM Plex Serif', Georgia, serif;
+    line-height: 1.25;
+    margin: 0;
+    padding: 32px;
+    border: 0;
+    color: #fffefb;
+    font-size: 16px;
+    text-align: center;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+    background-image: url("../img/cake-overlay.jpg");
+}
+

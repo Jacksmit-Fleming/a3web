@@ -1,0 +1,66 @@
+
+
+
+
+@media screen and (min-width: 768px) {
+    .column-container {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+    }
+
+    .navigation-list {
+        border: 0;
+    }
+
+    .Flex {
+        background-color: #fffefb;
+    }
+
+    #logo, #about-spelt {
+        box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.50);
+    }
+
+    header {
+        margin-right: 32px;
+        border-bottom-right-radius: 6px;
+        background: none;
+        width: calc(33% - 48px);
+        max-width: 300px;
+        min-width: 200px;
+        
+    }
+
+    #Content-Column {
+        border-bottom-left-radius: 6px;
+        flex: calc(33% - 48px);
+        box-shadow: 0 0 2px rgba(0, 0, 0, 0.50);
+    }
+
+    header, #nav-item {
+        color: #763523;
+    }
+
+    #nav-item:hover {
+        background-color: #763523;
+        color: #fffefb;
+        transition:  1s;
+    }
+
+    html {
+        background-image: url("../img/bread.jpg");
+    }
+
+    footer {
+        color: black;
+        background: none;
+    }
+
+
+}
+
+@media screen and (max-width: 768px) {
+
+    
+
+}
