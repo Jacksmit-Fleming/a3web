@@ -40,6 +40,11 @@ nav ul li a:hover{
 body{
     background-color: #F5F8F9;
 }
+/* 
+- Ownwer: Thiluxsaan Puvanendran
+- Date: Nov 22 2023
+- Font size and style
+*/
 h1{
     font-family: Helvetica, sans-serif;
     color: #FFFFFF;
@@ -65,5 +70,5 @@ p{
     font-weight: normal;
     font-size:25 px;
 }
-    
+/* End Owner: Thiluxsaan Puvanendran */
 
