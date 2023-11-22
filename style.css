@@ -103,29 +103,6 @@ p{
 /* Owner: Tyler Rubini
    Date: Nov 22 2023
    Footer alignment */
-#contact1 {
-	float:left;
-	width: 20%;
-}
-#contact2 {
-	float:left;
-	width: 20%;
-}
-
-#contact3 {
-	float:left;
-	width: 20%;
-}
-
-#contact4 {
-	float:left;
-	width: 20%;
-}
-
-#contact5 {
-	float:left;
-	width: 20%;
-}
 
 .name {
 	margin-bottom: 0px;
@@ -134,4 +111,17 @@ p{
 .email {
 	margin-top: 0px;
   }
+
+.column {
+  float: left;
+  width: 20%;
+  padding: 10px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 /* End Owner: Tyler Rubini */
