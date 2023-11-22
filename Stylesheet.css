@@ -99,3 +99,34 @@ p{
 /* End Owner: Thiluxsaan Puvanendran */
 /* End Owner: Jackson Mitchell */
 
+/* Owner: Tyler Rubini
+   Date: Nov 22 2023
+   Footer alignment */
+#contact1 {
+	float:left;
+	width: 20%;
+	
+#contact2 {
+	float:left;
+	width: 20%;
+	
+#contact3 {
+	float:left;
+	width: 20%;
+
+#contact4 {
+	float:right;
+	width: 20%;
+
+#contact5 {
+	float:right;
+	width: 20%;
+	
+.name {
+	margin-bottom: 0px;
+  }
+  
+.email {
+	margin-top: 0px;
+  }
+/* End Owner: Tyler Rubini */
