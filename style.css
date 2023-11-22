@@ -131,6 +131,9 @@ h4 {
     float: left;
     width: 20%;
 }
+.row {
+    margin-top: 0px;
+}
 .row:after {
     content: "";
     display: table;
