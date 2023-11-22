@@ -117,10 +117,6 @@ p{
 h4 {
     margin-bottom: 0px;
 }
-#team {
-    margin-bottom: 0px;
-    text-align: center;
-}
 .name {
     margin-bottom: 0px;
 }
@@ -130,9 +126,6 @@ h4 {
 .column {
     float: left;
     width: 20%;
-}
-.row {
-    margin-top: 0px;
 }
 .row:after {
     content: "";
