@@ -114,25 +114,26 @@ p{
 
 /* Owner: Tyler Rubini
    Date: Nov 22 2023 */
-.team {
-	margin-bottom: 10px;
-  }
+#team {
+    margin-bottom: 10px;
+    text-align: center;
+}
 .name {
-	margin-bottom: 0px;
-  }
+    margin-bottom: 0px;
+}
 .email {
-	margin-top: 0px;
-  }
+    margin-top: 0px;
+}
 .column {
-  float: left;
-  width: 20%;
+    float: left;
+    width: 20%;
 }
 .row:after {
-  content: "";
-  display: table;
-  clear: both;
+    content: "";
+    display: table;
+    clear: both;
 }
 .center {
-	text-align: center;
+    text-align: center;
 }
 /* End Owner: Tyler Rubini */
