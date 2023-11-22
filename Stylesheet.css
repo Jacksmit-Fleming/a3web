@@ -37,6 +37,33 @@ nav ul li a:hover{
     left: 10px;
     border-radius: 50%;
 }
+body{
+    background-color: #F5F8F9;
+}
+h1{
+    font-family: Helvetica, sans-serif;
+    color: #FFFFFF;
+    font-weight: normal;
+    font-size: 25 px;
+}
 
-
+h2{
+    font-family: Helvetica, sans-serif;
+    color: #000000
+    font-weight: normal;
+    font-size:25 px;
+}
+h3{
+    font-family: Helvetica, sans-serif;
+    color: #000000
+    font-weight: normal;
+    font-size: 25 px;
+}
+p{ 
+    font-family: Helvetica, sans-serif;
+    color: #000000;
+    font-weight: normal;
+    font-size:25 px;
+}
+    
 
