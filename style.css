@@ -114,6 +114,9 @@ p{
 
 /* Owner: Tyler Rubini
    Date: Nov 22 2023 */
+h4 {
+    margin-bottom: 5px;
+}
 #team {
     margin-bottom: 0px;
     text-align: center;
