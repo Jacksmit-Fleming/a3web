@@ -15,10 +15,10 @@
     margin-bottom: 10%;
     font-family: sans-serif;
 }
-nav{;
+nav{
     display: flex;
     background-color: #000;
-    width: 100%
+    width: 100%;
     position: fixed;
     margin: auto;
     padding: 20px 0;
@@ -26,6 +26,7 @@ nav{;
     justify-content: space-between;
     float: right;
 }
+
 nav ul li{
     display: inline-block;
     list-style: none;
@@ -71,22 +72,22 @@ h1{
     font-family: Helvetica, sans-serif;
     color: #FFFFFF;
     font-weight: normal;
-    font-size: 25 px;
+    font-size: 25px;
 }
 
 h2{
     font-family: Helvetica, sans-serif;
-    color: #000000
+    color: #000000;
     font-weight: normal;
-    font-size:25 px;
+    font-size:25px;
     margin-top: 5px;
     margin-bottom: 5px;
 }
 h3{
     font-family: Helvetica, sans-serif;
-    color: #000000
+    color: #000000;
     font-weight: normal;
-    font-size: 25 px;
+    font-size: 25px;
     margin-top: 10px;
     margin-bottom: 15px;
 }
@@ -94,7 +95,7 @@ p{
     font-family: Helvetica, sans-serif;
     color: #000000;
     font-weight: normal;
-    font-size:25 px;
+    font-size:25px;
 }
 /* End Owner: Thiluxsaan Puvanendran */
 /* End Owner: Jackson Mitchell */
@@ -105,23 +106,27 @@ p{
 #contact1 {
 	float:left;
 	width: 20%;
-	
+}
 #contact2 {
 	float:left;
 	width: 20%;
-	
+}
+
 #contact3 {
 	float:left;
 	width: 20%;
+}
 
 #contact4 {
 	float:left;
 	width: 20%;
+}
 
 #contact5 {
 	float:left;
 	width: 20%;
-	
+}
+
 .name {
 	margin-bottom: 0px;
   }
