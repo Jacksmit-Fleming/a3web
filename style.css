@@ -34,19 +34,26 @@ nav ul li{
 }
 nav ul li a{
     text-decoration: none;
-    color: #ffff;
+    color: #f1fcff;
     font-weight: bold;
 }
 nav ul li a:hover{
-    color: blue;
+    color: rgb(0, 204, 255);
 }
 .logo{
     left: 10px;
     border-radius: 50%;
 }
+/* End Owner: Rahul Saravanabavan */
+
+/* 
+- Owner: Thiluxsaan Puvanendran
+- Date: Nov 22 2023
+*/
 body{
-    background-color: #F5F8F9;
+    background-color: #f1fcff;
 }
+/* End Owner: Thiluxsaan Puvanendran */
 
 /*
 - Owner : Jackson Mitchell
