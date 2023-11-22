@@ -9,10 +9,10 @@
     margin-bottom: 10%;
     font-family: sans-serif;
 }
-nav{
+nav{;
     display: flex;
     background-color: #000;
-    width: 100%;
+    width: 100%
     position: fixed;
     margin: auto;
     padding: 20px 0;
@@ -40,10 +40,26 @@ nav ul li a:hover{
 body{
     background-color: #F5F8F9;
 }
+
+/*
+- Owner : Jackson Mitchell
+- Date  : Nov 22 (template)
+*/
+body {
+    margin-top: 120px;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+/* End Owner: Jackson Mitchell */
+
 /* 
-- Ownwer: Thiluxsaan Puvanendran
+- Owner: Thiluxsaan Puvanendran
 - Date: Nov 22 2023
 - Font size and style
+--------------------------------
+- Owner: Jackson Mitchell
+- Date Nov 22 2023
+- margins
 */
 h1{
     font-family: Helvetica, sans-serif;
@@ -57,12 +73,16 @@ h2{
     color: #000000
     font-weight: normal;
     font-size:25 px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 h3{
     font-family: Helvetica, sans-serif;
     color: #000000
     font-weight: normal;
     font-size: 25 px;
+    margin-top: 10px;
+    margin-bottom: 15px;
 }
 p{ 
     font-family: Helvetica, sans-serif;
@@ -71,4 +91,5 @@ p{
     font-size:25 px;
 }
 /* End Owner: Thiluxsaan Puvanendran */
+/* End Owner: Jackson Mitchell */
 
