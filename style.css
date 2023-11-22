@@ -113,27 +113,25 @@ p{
 /* End Owner: Jackson Mitchell */
 
 /* Owner: Tyler Rubini
-   Date: Nov 22 2023
-   Footer alignment */
+   Date: Nov 22 2023 */
+.team {
+	margin-bottom: 10px;
+  }
 .name {
 	margin-bottom: 0px;
   }
-  
 .email {
 	margin-top: 0px;
   }
-  
 .column {
   float: left;
   width: 20%;
 }
-
 .row:after {
   content: "";
   display: table;
   clear: both;
 }
-
 .center {
 	text-align: center;
 }
