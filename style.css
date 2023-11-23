@@ -126,6 +126,9 @@ footer {
     font-weight: bold;
     font-size: 18px;
 }
+#credit {
+    font-size: 12px
+}
 .name {
     margin-bottom: 0px;
     color: #f1fcff;
