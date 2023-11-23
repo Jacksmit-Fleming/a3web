@@ -130,13 +130,13 @@ footer {
 }
 .email {
     margin-top: 0px;
-    margin-bottom: 5px;
     text-align: center;
 }
 .column {
     float: left;
     width: 20%;
     color: white;
+    margin-bottom: 5px;
 }
 .row:after {
     content: "";
