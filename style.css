@@ -124,6 +124,7 @@ p{
     float: left;
     width: 20%;
     background-color: #000;
+    margin-top: 0px;
 }
 .row:after {
     content: "";
