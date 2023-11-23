@@ -119,6 +119,7 @@ footer {
     color: #f1fcff;
     font-family: sans-serif;
     background-color: #000;
+    text-align: center;
 }
 h4 {
     margin-bottom: 0px;
@@ -147,7 +148,7 @@ h4 {
 }
 #team {
     text-align: center;
-    margin-top: 30px;
+    margin-top: 20px;
 }
     
 /* End Owner: Tyler Rubini */
