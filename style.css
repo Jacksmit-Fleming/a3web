@@ -117,6 +117,7 @@ p{
 footer {
     color: #f1fcff;
     font-family: sans-serif;
+    font-weight: bold;
     background-color: #000;
     text-align: center;
 }
