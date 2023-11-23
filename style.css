@@ -52,6 +52,7 @@ nav ul li a:hover{
 */
 body{
     background-color: #f1fcff;
+    margin: 0px;
 }
 /* End Owner: Thiluxsaan Puvanendran */
 
@@ -125,6 +126,7 @@ footer {
 }
 h4 {
     margin-bottom: 0px;
+    margin-top: 10px;
     color: #f1fcff;
     font-weight: bold;
     font-size: 18px;
