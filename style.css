@@ -130,13 +130,14 @@ h4 {
 .name {
     margin-bottom: 0px;
     color: #f1fcff;
+    font-family: "Crimson Text", serif;
 }
 .email {
     margin-top: 0px;
     color: Gray;
+    font-family: "Crimson Text", serif;
 }
 .column {
-    font-family: "Crimson Text", serif;
     float: left;
     width: 20%;
     color: #f1fcff;
