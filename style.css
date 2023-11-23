@@ -145,8 +145,9 @@ h4 {
     display: table;
     clear: both;
 }
-.center {
+#team {
     text-align: center;
     margin-top: 5px;
 }
+    
 /* End Owner: Tyler Rubini */
