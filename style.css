@@ -115,7 +115,15 @@ p{
 /* Owner: Tyler Rubini
    Date: Nov 22 2023 */
 footer {
+    font-family: "Crimson Text", serif;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    font-family: sans-serif;
     background-color: #000;
+}
+#team {
+    margin-bottom: 0px;
 }
 .name {
     margin-bottom: 0px;
