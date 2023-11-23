@@ -127,7 +127,8 @@ footer {
     font-size: 18px;
 }
 #credit {
-    font-size: 12px
+    font-size: 12px;
+    text-align: center;
 }
 .name {
     margin-bottom: 0px;
