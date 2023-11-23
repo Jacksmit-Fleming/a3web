@@ -129,10 +129,12 @@ h4 {
 .name {
     margin-bottom: 0px;
     color: #f1fcff;
+    font-size: 16px;
 }
 .email {
     margin-top: 0px;
     color: Gray;
+    font-size: 16px;
 }
 .column {
     float: left;
@@ -146,6 +148,7 @@ h4 {
 }
 #team {
     margin-top: 20px;
+    font-size: 16px;
 }
     
 /* End Owner: Tyler Rubini */
