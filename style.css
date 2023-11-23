@@ -122,6 +122,7 @@ footer {
 }
 #team {
     margin-bottom: 0px;
+    color: white;
 }
 .name {
     margin-bottom: 0px;
@@ -132,6 +133,7 @@ footer {
 .column {
     float: left;
     width: 20%;
+    color: white;
 }
 .row:after {
     content: "";
