@@ -136,6 +136,7 @@ h4 {
     color: Gray;
 }
 .column {
+    font-family: "Crimson Text", serif;
     float: left;
     width: 20%;
     color: #f1fcff;
@@ -146,6 +147,7 @@ h4 {
     clear: both;
 }
 #team {
+    font-family: "Crimson Text", serif;
     margin-top: 20px;
 }
     
