@@ -116,18 +116,18 @@ p{
    Date: Nov 22 2023 */
 footer {
     font-family: "Crimson Text", serif;
-    color: white;
+    color: #f1fcff;
     font-family: sans-serif;
     background-color: #000;
 }
 #team {
     margin-bottom: 0px;
-    color: white;
+    color: #f1fcff;
     font-weight: bold;
 }
 .name {
     margin-bottom: 0px;
-    color: white;
+    color: #f1fcff;
 }
 .email {
     margin-top: 0px;
@@ -135,7 +135,7 @@ footer {
 .column {
     float: left;
     width: 20%;
-    color: white;
+    color: #f1fcff;
 }
 .row:after {
     content: "";
