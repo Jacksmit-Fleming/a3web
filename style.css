@@ -114,6 +114,9 @@ p{
 
 /* Owner: Tyler Rubini
    Date: Nov 22 2023 */
+footer {
+    background-color: #000;
+}
 .name {
     margin-bottom: 0px;
 }
@@ -124,9 +127,6 @@ p{
     float: left;
     width: 20%;
     background-color: #000;
-}
-.row {
-    margin-top: 0px;
 }
 .row:after {
     content: "";
