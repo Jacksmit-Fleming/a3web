@@ -6,6 +6,22 @@
 */
 
 @import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
+h1{
+    margin-left: 0px !important;
+    font-family: Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 30px;
+    position: relative;
+}
+h1 a{
+    text-decoration: none;
+    color: #f1fcff;
+    font-weight: bold;
+    display: inline-block;
+}
+h1 a:hover{
+    color: rgb(0, 204, 255);
+}
 
 header{
     font-family: "Crimson Text", serif;
@@ -81,12 +97,6 @@ body{
 - Date Nov 22 2023
 - margins
 */
-h1{
-    font-family: Helvetica, sans-serif;
-    color: #FFFFFF;
-    font-weight: normal;
-    font-size: 30px;
-}
 
 h2{
     font-family: Helvetica, sans-serif;
