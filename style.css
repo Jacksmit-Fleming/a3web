@@ -91,12 +91,9 @@ nav ul li a:hover{
         display: block;
     }
 }
-@media  (max-width: 400px){
-    .sidebar{
-        width: 100%;
-    }
+@media  (max-width: 550px){
     .logo{
-        heigth: 50px;
+        height: 50px;
         width: 50px;
     }
 }
@@ -105,6 +102,11 @@ nav ul li a:hover{
        display: none;
     }
 }
+@media (min-width: 350px){
+    h1 {
+        padding-left:10px;
+    }
+
 svg{
     fill:skyblue;
 }
@@ -227,7 +229,7 @@ h4 {
 - adding break point for title font size
 - https://www.w3schools.com/howto/howto_css_media_query_breakpoints.asp
 */
-@media only screen and (max-width: 530px) {
+@media only screen and (max-width: 550px) {
     h1{
         font-size: 20px;
     }
