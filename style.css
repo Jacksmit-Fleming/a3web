@@ -82,7 +82,7 @@ nav ul li a:hover{
 .hamburger-button{
     display: none;
 }
-@media (max-width: 850px){
+@media (max-width: 1350px){
     .hide{
         display: none;
     }
@@ -90,15 +90,19 @@ nav ul li a:hover{
         display: block;
     }
 }
-@media  (max-width: 400px){
+@media (max-width: 400px){
     .sidebar{
         width: 100%;
     }
 }
-@media  (min-width: 650px){
+@media (min-width: 400px){
     .sidebar{
        display: none;
     }
+}
+@media (max-width: 510px){
+    .logo{
+        display: none;
 }
 svg{
     fill:skyblue;
