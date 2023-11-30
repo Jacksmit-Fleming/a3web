@@ -90,11 +90,12 @@ nav ul li a:hover{
         display: block;
     }
 }
-@media (min-width: 400px){
+@media  (max-width: 400px){
     .sidebar{
-       display: none;
+        width: 100%;
     }
 }
+
 svg{
     fill:skyblue;
 }
