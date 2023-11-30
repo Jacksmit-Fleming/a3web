@@ -95,6 +95,10 @@ nav ul li a:hover{
     .sidebar{
         width: 100%;
     }
+    .logo{
+        heigth: 50px;
+        width: 50px;
+    }
 }
 @media  (min-width: 650px){
     .sidebar{
