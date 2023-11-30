@@ -121,14 +121,14 @@ body{
 - flex box https://www.w3schools.com/css/css3_flexbox.asp
 */
 #main-content {
-    display: flex;
-    flex-wrap: wrap;
     margin-top: 125px;
     margin-left: 100px;
     margin-right: 100px;
 }
 
 .section {
+    display: flex;
+    flex-wrap: wrap;
     margin-top: 50px;
     margin-bottom: 50px;
 }
@@ -159,6 +159,7 @@ h3{
     font-size: 20px;
     margin-top: 10px;
     margin-bottom: 15px;
+    flex: 0 0 100%;
 }
 p{ 
     font-family: Helvetica, sans-serif;
