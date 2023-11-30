@@ -100,10 +100,6 @@ nav ul li a:hover{
        display: none;
     }
 }
-@media (max-width: 510px){
-    .logo{
-        display: none;
-}
 svg{
     fill:skyblue;
 }
