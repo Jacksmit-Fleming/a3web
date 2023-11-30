@@ -215,3 +215,15 @@ h4 {
 }
     
 /* End Owner: Tyler Rubini */
+
+/*
+- Owner: Jackson Mitchell
+- Date Nov 30 2023
+- adding break point for title font size
+- https://www.w3schools.com/howto/howto_css_media_query_breakpoints.asp
+*/
+@media only screen and (max-width: 530px) {
+    h1{
+        font-size: 20px;
+    }
+}
