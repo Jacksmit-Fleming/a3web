@@ -117,9 +117,12 @@ body{
 
 /*
 - Owner : Jackson Mitchell
-- Date  : Nov 22 (template)
+- Date  : Nov 22 (Margins) Nov 30 (Flex box)
+- flex box https://www.w3schools.com/css/css3_flexbox.asp
 */
 #main-content {
+    display: flex;
+    flex-wrap: wrap;
     margin-top: 150px;
     margin-left: 200px;
     margin-right: 200px;
