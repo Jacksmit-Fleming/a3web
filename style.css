@@ -85,7 +85,7 @@ nav ul li a:hover{
 .hamburger-button{
     display: none;
 }
-@media (max-width: 1350px){
+@media (max-width: 1470px){
     .hide{
         display: none;
     }
