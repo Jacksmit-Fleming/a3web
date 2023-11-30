@@ -105,6 +105,10 @@ nav ul li a:hover{
        display: none;
     }
 }
+@media (min-width: 350px){
+    h1 {
+        padding-left:10px;
+    }
 
 svg{
     fill:skyblue;
