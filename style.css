@@ -74,6 +74,7 @@ nav ul li a:hover{
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start; 
+    display: none;
     /* determines the sidebar space between alter before use*/
 }
 .sidebar li{
