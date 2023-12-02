@@ -85,6 +85,18 @@ nav ul li a:hover{
 .hamburger-button{
     display: none;
 }
+svg{
+    fill:skyblue;
+}
+.sub-menu{
+    display: inline;
+    margin-top: 150px;
+    position: fixed;
+    border-top: #09c0f3;
+    border-style: ridge;
+    background-color: #000;
+}
+
 @media (max-width: 1470px){
     .hide{
         display: none;
@@ -98,6 +110,13 @@ nav ul li a:hover{
         height: 50px;
         width: 50px;
     }
+    .sub-menu{
+        margin-top: 130px;
+        width: 100%;
+    }
+    .sub-menu a{
+        margin-left: 30px;
+    }
 }
 @media  (min-width: 650px){
     .sidebar{
@@ -109,8 +128,10 @@ nav ul li a:hover{
         padding-left:10px;
     }
 }
-svg{
-    fill:skyblue;
+@media (max-width: 340px){
+    .sub-menu a{
+        font-size: small;
+    }
 }
 /* End Owner: Rahul Saravanabavan */
 
