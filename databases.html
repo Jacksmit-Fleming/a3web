@@ -70,10 +70,8 @@
 		circumference as an input). We collected data on over 100 trees, which was collated with data from the rest of our colleagues in order to create a final dataset containing over 1000 total trees located 
 		in different parts of the country.
             </p>
-		<div class="photo">
 		    <img src="treesurveydata.png" alt="Our collected tree data" id="db1">
 		    <p>A preview of the data we collected in ArcGIS Survey123. As we are in-person students, our data is limited to the Lindsay area.</p>
-		</div>
 	    <p>
 		Following this exercise, we were furnished with the full data set, at which point we were required to extract, transform, and load the data into a properly-structured relational database using MSAccess. We 
 		constructed a schema that we felt could be used to efficiently store the necessary information, which resulted in a 17-field main tree database which was further linked to a table of tree names (with type and 
@@ -81,11 +79,9 @@
 		our new database. For example, multiple groups collected a vertical accuracy statistic, but most did not. This forced us to decide between appending the data to another field or creating a vertical accuracy 
 		field and populating it with null values if the data was absent (with the latter being our final choice).
 	    </p>
-		<div class="photo">
 		    <img src="treedatabase.png" alt="Our final database" id="db2">
 	            <p>A preview of our final database. We have normalized the data and connected it to a separate table with the scientific name. We have also provided a flag table and checksum queries to show 
 		    complete importing.</p>
-		</div>
 	    <p>
 		This exercise provided us with valuable experience in designing, populating, and normalizing data models. It exposed us to the reality that data is often inconsistent even in the most well-defined 
 		data collection schemes and gave us the opportunity to align that data in a similar way to how one would in the real world. While we already possessed a theoretical understanding of how to go about 
