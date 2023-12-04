@@ -244,11 +244,6 @@ h4 {
     font-size: 16px;
 }
 
-/* All divs surrounding photos and their caption are centred. */
-.photo {
-    text-align: center;
-}
-
 /* ID used to display treesurveydata.png in its native resolution */
 #db1 {
     width: 842px;
