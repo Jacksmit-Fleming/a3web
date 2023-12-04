@@ -243,6 +243,23 @@ h4 {
     margin-top: 20px;
     font-size: 16px;
 }
+
+/* All divs surrounding photos and their caption are centred. */
+.photo {
+    text-align: center;
+}
+
+/* ID used to display treesurveydata.png in its native resolution */
+#db1 {
+    width: 842px;
+    height: 436px;
+}
+
+/* ID used to display treedatabase.png in its native resolution */
+#db1 {
+    width: 868px;
+    height: 513px;
+}
     
 /* End Owner: Tyler Rubini */
 
