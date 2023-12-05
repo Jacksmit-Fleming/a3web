@@ -30,6 +30,7 @@ header{
     top: 0;
     height: 10px;
     font-family: sans-serif;
+    z-index: 10;
 }
 
 nav{
@@ -150,13 +151,13 @@ body{
 - Date  : Nov 22 (Margins) Nov 30 (Flex box)
 - flex box https://www.w3schools.com/css/css3_flexbox.asp
 */
-#main-content {
+#main-content,#main-content-landing {
     margin: auto;
     margin-top: 150px;
     width: 80%;
 }
 
-.section {
+.section,#section-landing {
     display: flex;
     flex-wrap: wrap;
     margin-top: 50px;
@@ -258,14 +259,84 @@ h4 {
     
 /* End Owner: Tyler Rubini */
 
+/* Jackson Images
+source https://www.w3schools.com/howto/howto_css_image_center.asp
+*/
+.jimg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 600px; 
+    max-height: 400px;
+    width: 50%;
+}
+
+/*
+- Owner: Jackson Mitchell
+- Date Dec 4 2023
+- Specific CSS For Landing Page (index)
+- https://www.w3schools.com/html/html_images_background.asp
+- https://www.w3schools.com/cssref/css3_pr_text-shadow.php
+*/
+#main-content-landing {
+    background-image: url('img/mount.jpg');
+    background-position: center;
+    padding-top: 375px;
+    padding-bottom: 325px;
+    margin: 0px;
+    width: 100%;
+    text-align: center;
+}
+
+#landing-Header {
+    font-family: Helvetica, sans-serif;
+    color: #f1fcff;
+    font-size: 55px;
+    font-weight: normal;
+    text-shadow: 3px 3px #000000;
+    padding: 0px;
+
+}
+
+#section-landing {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+}
+#section-landing p {
+    font-size: 30px;
+}
 /*
 - Owner: Jackson Mitchell
 - Date Nov 30 2023
-- adding break point for title font size
+- adding break point and css to adjust for small screens
 - https://www.w3schools.com/howto/howto_css_media_query_breakpoints.asp
 */
 @media only screen and (max-width: 550px) {
     h1{
         font-size: 20px;
+    }
+
+    #main-content-landing {
+        padding-top: 150px;
+        padding-bottom: 100px;
+    }
+
+    #landing-Header {
+        font-size: 40px;
+    }
+
+    #section-landing p {
+        font-size: 20px;
+    }
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+    }
+    .column {
+        width: 100%;
     }
 }
