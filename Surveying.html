@@ -1,0 +1,130 @@
+<html>
+<head>
+    <title> GIS CONSULTANCY </title>
+    <link rel="Stylesheet" href="style.css"> 
+    <script src="script.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <!-------------------
+    - Owner : Rahul Saravanabavan
+    - Date  : Nov 28 (template)
+    - From  : https://www.w3schools.com/html/html_intro.asp
+    --------------------->
+    <header>
+        <nav>
+            <img src="gislogo.png" alt="GIS Logo" class="logo">
+	    <h1><a href="#">GeoLogic Innovations</a></h1>
+            <ul class="sidebar">
+                <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="35" viewBox="0 -960 960 960" width="35"><path d="m256-240-56-56 384-384H240v-80h480v480h-80v-344L256-240Z"/></svg></a></li>
+                <li><a href="cartography.html">Cartography</a></li>
+                <li><a href="#">Programming</a></li>
+                <li><a href="#">Surveying And CAD Mapping</a></li>
+                <li><a href="#">DataBase</a></li>
+                <li><a href="#">Geodesy</a></li>
+                <li><a href="#">Remote Sensing</a></li>
+            </ul>
+            <ul class="sub-menu">
+                <li><a href="#Surveying">Surveying</a></li>
+                <li><a href="#Cadmap">CAD Mapping</a></li>
+            </ul>
+            <ul>
+                <li class="hide"><a href="#">Cartography</a></li>
+                <li class="hide"><a href="#">Programming</a></li>
+                <li class="hide"><a href="#">Surveying And CAD Mapping</a></li>
+                <li class="hide"><a href="#">DataBase</a></li>
+                <li class="hide"><a href="#">Geodesy</a></li>
+                <li class="hide"><a href="#">Remote Sensing</a></li>
+                <li class="hamburger-button" onclick=showSidebar() ><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="35" viewBox="0 -960 960 960" width="35"><path d="M120-240v-80h520v80H120Zm664-40L584-480l200-200 56 56-144 144 144 144-56 56ZM120-440v-80h400v80H120Zm0-200v-80h520v80H120Z"/></svg></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!--*** End Owner: Rahul Saravanabavan *** -->
+	
+    <!-------------------
+    - Owner : Jackson Mitchell
+    - Date  : Nov 22 (template)
+    - From  : https://www.w3schools.com/html/html_intro.asp
+    --------------------->
+    <div id="main-content">
+        <div class="section">
+            <h2>Surveying</h2>
+            <h3>Overview</h3>
+            <p> 
+                Throughout our time in the Fleming geography information science application specialist program we competed something known as survey camp. Its a one week compact program where we
+                implement the skills and knowledge we gained from our book work and classes into a real hands on activity with the surveying equipment. This made use more comfortable with the equipment and
+                a leg up against other graduate with no equipment experience. Us as students will be able to handle this equipment with ease. For our survey camp we got hands on experience with a total station 
+                and a surveying level. Of witch we completed a closed interior angle traverse survey with the total station and a leveling traverse with the level.
+            </p>
+        </div>
+        <div class="section">
+            <h2>Survey Camp</h2>
+            <h3>Survey Traverse using a Total Station and a Leveling Traverse using a level</h3>
+            <p> 
+               For the total station traverse we competed a interior closed angle traverse with 12 survey station using a total station and a prsim rod. 
+               The process included the following process for each of the 12 survey stations. First we get the total station set up at the survey station by 
+               first leveling and lining up the tripod above the survey station nail (position marked for total station position) and leveling the total station 
+               once its been fastened to the tripod we double check that the total station is leveled and that it is centered above the nail. Next we proceed to 
+               turn on the total station and take reading of the interior ange from the previous survey station and the next survey station by reading the prsim 
+               rods location at both points getting both the interior angle and the distance to both survey station. once the readings are record we proceed to 
+               the next station and repeat the process for all 12 survey stations.<br><br>
+
+               Next for the leveling traverse we use a Stadia Rod to measure the heights at the designated points along the traverse. What we did was set up our 
+               tripod for the level at a position that can see the Stadia rod at both our first point and the second point. Once the process of leveling is done 
+               and the level is secured atop the tripod we can take the readings from the Stadia rod at both the backsight and foresight and calculating the both 
+               the height of the instrument and the elevation. We proceed to to this for each of the designated points until we return to our starting point. 
+               Then we complete final calculates. <br><br>
+               Overall the main takeaways is that we have had hands on experience with real surveying tools and will be prime 
+               for experienced professionals to fully train us and we will be using these tools in no time.
+            </p>
+            <img src="img\totalstation.jpg" alt="Total station" class="jimg">
+            <!--source: https://www.vecteezy.com/free-photos/total-station-->
+            <img src="img\leveling.jpg" alt="guy using a surveying level" class="jimg"> 
+            <!--source: https://depositphotos.com/photos/topographic-survey.html?offset=100&sh=919746ad94e05fd451713bb59661f40bac8a36ff-->
+        </div>
+    </div>
+    <!--*** End Owner: Jackson Mitchell *** -->
+    	
+    <!------------------
+    - Owner : Tyler Rubini
+    - Date  : Nov 22 (template)
+    - From  : https://www.w3schools.com/tags/tag_footer.asp
+    -------------------->
+    <footer>
+        <div>
+        <h4>Our Team:</h4>
+        </div>
+        <!-- Instructions for column layout adapted from https://www.w3schools.com/howto/howto_css_four_columns.asp -->
+        <div class="row">
+            <div class="column">
+            <p class="name">Jackson Mitchell</p>
+            <a class="email" href="mailto:jacksmit@flemingcollege.ca">Email</a>
+            </div>
+            <div class="column">
+            <p class="name">Thiluxsaan Puvanendran</p>
+            <a class="email" href="mailto:thpuvane@flemingcollege.ca">Email</a>
+            </div>
+            <div class="column">
+            <p class="name">Tyler Rubini</p>
+            <a class="email" href="mailto:trubini@flemingcollege.ca">Email</a>
+            </div>
+            <div class="column">
+            <p class="name">Rahul Saravanabavan</p>
+            <a class="email" href="mailto:rsaravan@flemingcollege.ca">Email</a>
+            </div>
+            <div class="column">
+            <p class="name">Parkavi Shanmugam</p>
+            <a class="email" href="mailto:pashanmu@flemingcollege.ca">Email</a>
+            </div>
+        </div>
+        <div id="team">
+        All team members are currently attending Fleming College's GIS Application Specialist post-graduate program.
+        </div>
+    </footer>
+    <!--*** End Owner: Tyler Rubini *** -->
+
+</body>
+
