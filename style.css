@@ -433,6 +433,40 @@ source https://www.w3schools.com/howto/howto_css_image_center.asp
 	list-style-type: circle;
 	
 }
+
+
+.dark-mode { 
+	background-color: #363636;
+	color: #f1fcff;
+}
+
+.button { 
+	background-color: black;
+	color: white;
+	border: 10px solid black;
+}
+
+.button:hover {
+	background-color: black;
+	color: #00ccff;
+}
+
+.dark-mode h1 {
+	color: white;
+}
+
+.dark-mode p {
+	color: white;
+}
+
+.dark-mode h3 {
+	color: white;
+}
+
+.dark-mode h2 {
+	color: white;
+}
+
 /*Ul li is list element and the element is being manipulated to have padding on each listed item in the unorder list.*/
 .lux-lists li{
 	padding: 18px;
