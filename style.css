@@ -134,6 +134,61 @@ svg{
         font-size: small;
     }
 }
+.raster{
+    margin-left:25%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 35px;
+}
+.SA1,.SA2,.SA3,.SA4Raster,.SA4Vector,.GV1,.GV2,.GV3,.GV4,.AI1,.AI2,.AI3Quality,.AI3Quantity{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.SA1{
+    max-width: 470px;
+    max-height: 300px;
+}
+
+.SA2{
+    max-width: 477px;
+    max-height: 300px;
+}
+.SA3{
+    max-width: 481px;
+    max-height: 300px;
+}
+.SA4Raster{
+    max-width: 486px;
+    max-height: 300px;
+}
+.SA4Vector{
+    max-width: 349px;
+    max-height: 300px;
+}
+.GV1{
+    max-width: 466px;
+    max-height: 300px;
+}
+.GV2,.GV3{
+    max-width: 463px;
+    max-height: 300px;
+}
+.GV4{
+    max-width: 460px;
+    max-height: 300px;
+}
+.AI1{
+    max-width: 466px;
+    max-height: 300px;
+}
+.AI2{
+    max-width: 464px;
+    max-height: 300px;
+}
+.AI3Quality,.AI3Quality{
+    max-width: 463px;
+    max-height: 300px;
+}
 /* End Owner: Rahul Saravanabavan */
 
 /* 
