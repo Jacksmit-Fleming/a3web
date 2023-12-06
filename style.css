@@ -396,12 +396,12 @@ source https://www.w3schools.com/howto/howto_css_image_center.asp
 }
 
 /*Ul tag has font size of 25px and font being Times New Roman*/
-ul {
+.lux-lists {
 	font-size:18px;
 	font-family: Helvetica, sans-serif;
 }
 /*Ul li is list element and the element is being manipulated to have padding on each listed item in the unorder list.*/
-ul li{
+.lux-lists li{
 	padding: 18px;
 }
 /*
