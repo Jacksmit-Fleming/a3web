@@ -49,6 +49,10 @@ nav{
     float: right;
 }
 
+nav ul {
+    padding-left: 0px;
+}
+
 nav ul li{
     display: inline-block;
     list-style: none;
