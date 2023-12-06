@@ -257,6 +257,18 @@ h4 {
     height: 513px;
 }
 
+/* ID used to display tylerwebsite.png in its native resolution */
+#wd1 {
+    width: 1116px;
+    height: 164px;
+}
+
+/* ID used to display luxwebsite.png in its native resolution */
+#wd2 {
+    width: 1127px;
+    height: 87px;
+}
+
 .caption{ 
     font-size:14px;
 }
