@@ -10,3 +10,14 @@ function hideSidebar(){
     sidebar.style.display = 'none'
 }
 // End of Rahul Saravanabavan
+
+//- Owner : Thiluxsaan Puvanendran
+//- Date  : Nov 6 (template)
+//- From  : https://www.w3schools.com/howto/howto_js_toggle_dark_mode.asp
+
+function Modedark(){
+	var element = document.body;
+	element.classList.toggle("dark-mode");
+// End of Thiluxsaan Puvanendran
+
+
