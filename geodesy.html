@@ -1,0 +1,98 @@
+<html>
+<head>
+    <title> Geodesy </title>
+    <link rel="Stylesheet" href="style.css"> 
+    <script src="script.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <!-------------------
+    - Owner : Rahul Saravanabavan
+    - Date  : Nov 28 (template)
+    - From  : https://www.w3schools.com/html/html_intro.asp
+    --------------------->
+<header>
+        <nav>
+            <img src="img/gislogo.png" alt="GIS Logo" class="logo">
+	    <h1><a href="index.html">GeoLogic Innovations</a></h1>
+            <ul class="sidebar">
+                <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="35" viewBox="0 -960 960 960" width="35"><path d="m256-240-56-56 384-384H240v-80h480v480h-80v-344L256-240Z"/></svg></a></li>
+                <li><a href="cartography.html">Cartography</a></li>
+                <li><a href="programming.html">Programming</a></li>
+                <li><a href="surveying.html">Surveying And CAD Mapping</a></li>
+                <li><a href="databases.html">DataBase</a></li>
+                <li><a href="geodesy.html">Geodesy</a></li>
+                <li><a href="remotesensing.html">Remote Sensing</a></li>
+            </ul>
+            <ul>
+                <li class="hide"><a href="cartography.html">Cartography</a></li>
+                <li class="hide"><a href="programming.html">Programming</a></li>
+                <li class="hide"><a href="surveying.html">Surveying And CAD Mapping</a></li>
+                <li class="hide"><a href="databases.html">DataBase</a></li>
+                <li class="hide"><a href="geodesy.html">Geodesy</a></li>
+                <li class="hide"><a href="remotesensing.html">Remote Sensing</a></li>
+                <li class="hamburger-button" onclick=showSidebar() ><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="35" viewBox="0 -960 960 960" width="35"><path d="M120-240v-80h520v80H120Zm664-40L584-480l200-200 56 56-144 144 144 144-56 56ZM120-440v-80h400v80H120Zm0-200v-80h520v80H120Z"/></svg></a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <!--*** End Owner: Rahul Saravanabavan *** -->
+	
+    <!-------------------
+    - Template Owner : Jackson Mitchell
+    - Date  : Nov 22
+    - From  : https://www.w3schools.com/html/html_intro.asp
+    --------------------->
+    <!-------------------
+    - Content Owner : Thiluxsaan Puvanendran
+    - Date  : Dec 6th
+    --------------------->
+	<div id="main-content">
+        <div class="section">
+            <h2>Geodesy</h2>
+            <h3>Overview</h3>
+            <p> 
+				Geodesy is the science of measuring and representing the orientation of the Earth. Understanding the curvature of the Earth changes by different projections on a map. 
+				Acknowledge the issues involve in measuring and mapping of the Earth. Understand how projections work and how different countries and places use different projections.  
+				
+			</p>
+			
+		</div>
+        <div class="section">
+			<h3>Intended Learning Outcomes</h3>
+            <p> 
+				<ul>
+					<il> Understanding the relationship between real world distance and distances on a map. </il>
+					<il> Scaling of a map can differentiate between large and small. </il>
+					<il> Acknowledge the three methods to express map scale. </il>
+					<il> Understand how COSINE (Control Survey Information Exchange) works and knowing the differences between vertical control and horizontal stations. </il>
+					<il> Read a COSINE report. </il>
+					<il> Complete a training module on how coordinate systems work with ESRI software. </il>
+					<il> Understand how different projections affect the display of countries on a map. </il>
+					<il> Different UTM zones across Canada. </il>
+					<il> Knowing advantages and disadvantages of using the UTM system. </il>
+					<il> Differentiate datums in Canada and classification of map projections. </il>
+					
+				</ul>
+				
+			</p>
+			
+		</div>
+        <div class="section">
+			<h3>Sequence of Class activities:</h3>
+            <p> Assignment 1: To gain an understanding on how to differentiate Ontario Control Survey Markers across the province and knowing how to search these markers on the database called COSINE. 
+				Learn how to read and understand COSINE monument reports.  
+			</p>
+			<img src="img/cosine.png" alt="cosine" id="db6">
+			
+			<p> Assignment 2: This assignment allows student to know how to read National Topographic System maps sheet and knowing what principal digits are. 
+				How to locate a specific feature on a map from coordinates and measure distances between to features. Also, how to determine coordinates from a feature that is shown on a map. 
+			</p>
+			<img src="img/nts.png" alt="nts map" id="db7">
+			
+			<p> The purpose of these assignments is to help us gain an understanding on how to read map sheets in person and digit maps online, determining coordinates from specific features and vice versa. 
+				Also learning how to view different control markers found in Ontario and knowing how to read the reports. 
+			</p>
