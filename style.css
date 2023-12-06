@@ -5,7 +5,7 @@
 --------------------------------
 */
 
-@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
+/* Our h1 tag is the landing page for our website so that we have hover and a tag for it*/
 h1{
     margin-left: 0px !important;
     font-family: Helvetica, sans-serif;
@@ -25,6 +25,7 @@ h1 a:hover{
 .active-page {
     color: rgb(0, 204, 255);
 }
+/* This header contains the nav bar which is fixed*/
 header{
     font-family: "Crimson Text", serif;
     font-size: 17px;
@@ -35,7 +36,7 @@ header{
     font-family: sans-serif;
     z-index: 10;
 }
-
+/* The Nav Bar has our subsequent pages which also has our */
 nav{
     display: flex;
     background-color: #000;
@@ -54,19 +55,23 @@ nav ul li{
     margin: 5px 10px;
     padding-right: 20px;
 }
+/* This modifies the hover text of our subsequent pages*/
 nav ul li a{
     text-decoration: none;
     color: #f1fcff;
     font-weight: bold;
     text-shadow: 0px 0px 7px black;
 }
+/* I we hover on each page title we have a hover effect which is excecuted by the below code*/
 nav ul li a:hover{
     color: rgb(0, 204, 255);
 }
+/* For the logo we have made it look rounder */
 .logo{
     border-radius: 50%;
     padding-left: 10px;
 }
+/* This is the side bar which has the responsive navbar pops at right*/
 .sidebar{
     position: fixed;
     top:0%;
@@ -81,15 +86,16 @@ nav ul li a:hover{
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start; 
-    display: none;
-    /* determines the sidebar space between alter before use*/
+    display: none; /* determines the sidebar space between alter before use*/
 }
 .sidebar li{
     margin-bottom: 10px;
 }
+/* This is the button for the menubar*/
 .hamburger-button{
     display: none;
 }
+/* SVG file is the responsive menu bar menu and close items */
 svg{
     fill:skyblue;
 }
@@ -101,7 +107,8 @@ svg{
     border-style: ridge;
     background-color: #000;
 }
-
+/* These are the media query for reponsive design which was driven from the w3schools responsive hamburger navbar*/
+/* When the screen hits the width of 1470 px which is the first breaking point it displays the hamburger menu item*/
 @media (max-width: 1470px){
     .hide{
         display: none;
@@ -110,6 +117,7 @@ svg{
         display: block;
     }
 }
+/* When the screen hits the width of 550 px which is the second breaking point it shirnks the logo*/
 @media  (max-width: 550px){
     .logo{
         height: 50px;
@@ -128,6 +136,7 @@ svg{
        display: none;
     }
 }
+/* if the creen attains the minimum width of 350px the h1 padding left increases*/
 @media (min-width: 350px){
     h1 {
         padding-left:10px;
@@ -138,6 +147,7 @@ svg{
         font-size: small;
     }
 }
+/* The following are the picture native resolution which is resized and holds its size while being shrinked*/
 .raster{
     margin-left:20%;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -152,7 +162,7 @@ svg{
     max-width: 470px;
     max-height: 300px;
 }
-
+/* The following are the picture native resolution which is resized and holds its size while being shrinked*/
 .SA2{
     max-width: 477px;
     max-height: 300px;
@@ -169,6 +179,7 @@ svg{
     max-width: 349px;
     max-height: 300px;
 }
+/* The following are the picture native resolution which is resized and holds its size while being shrinked*/
 .GV1{
     max-width: 466px;
     max-height: 300px;
@@ -181,6 +192,7 @@ svg{
     max-width: 460px;
     max-height: 300px;
 }
+/* The following are the picture native resolution which is resized and holds its size while being shrinked*/
 .AI1{
     max-width: 466px;
     max-height: 300px;
@@ -233,7 +245,7 @@ body{
 - Date Nov 22 2023
 - margins
 */
-
+/* these are the h2 and h3 of our every page*/
 h2{
     font-family: Helvetica, sans-serif;
     color: #000000;
@@ -370,6 +382,7 @@ h4 {
 /* Jackson Images
 source https://www.w3schools.com/howto/howto_css_image_center.asp
 */
+/* These are the pictures which are in native resolution */
 .jimg, #db1, #db2 {
     display: block;
     margin-left: auto;
@@ -417,10 +430,14 @@ source https://www.w3schools.com/howto/howto_css_image_center.asp
 .lux-lists {
 	font-size:18px;
 	font-family: Helvetica, sans-serif;
+	list-style: none;
 }
 /*Ul li is list element and the element is being manipulated to have padding on each listed item in the unorder list.*/
 .lux-lists li{
 	padding: 18px;
+}
+.as{
+	flex:0 0 100%;
 }
 /*
 - Owner: Jackson Mitchell
@@ -477,7 +494,7 @@ source https://www.w3schools.com/howto/howto_css_image_center.asp
     #landing-Header {
         font-size: 40px;
     }
-
+/* This is the responsive section for our footer which has the flex display and direction to coloumn  so that if the page attains the maximum width of 550px it transforms to the coloumn*/
     #section-landing p {
         font-size: 20px;
     }
