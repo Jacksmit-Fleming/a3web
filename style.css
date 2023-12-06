@@ -436,14 +436,14 @@ source https://www.w3schools.com/howto/howto_css_image_center.asp
 
 
 .dark-mode { 
-	background-color: #363636;
+	background-color: #333333;
 	color: #f1fcff;
 }
 
 .button { 
 	background-color: black;
-	color: #000;
-	border: 10px solid white;
+	color: white;
+	border: 2px solid white;
 	font-family: "Crimson Text", serif;
 	
 }
