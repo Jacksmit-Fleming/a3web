@@ -22,6 +22,9 @@ h1 a{
 h1 a:hover{
     color: rgb(0, 204, 255);
 }
+.active-page {
+    color: rgb(0, 204, 255);
+}
 header{
     font-family: "Crimson Text", serif;
     font-size: 17px;
