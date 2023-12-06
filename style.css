@@ -269,6 +269,12 @@ h4 {
     height: 87px;
 }
 
+/* ID used to display jacksonwebsite.png in its native resolution */
+#wd3 {
+    width: 1142px;
+    height: 80px;
+}
+
 .caption{ 
     font-size:14px;
 }
