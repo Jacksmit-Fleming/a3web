@@ -300,18 +300,6 @@ h4 {
     font-size: 16px;
 }
 
-/* ID used to display treesurveydata.png in its native resolution */
-#db1 {
-    width: 842px;
-    height: 436px;
-}
-
-/* ID used to display treedatabase.png in its native resolution */
-#db2 {
-    width: 868px;
-    height: 513px;
-}
-
 /* ID used to display tylerwebsite.png in its native resolution */
 #wd1 {
     width: 1116px;
@@ -331,6 +319,8 @@ h4 {
 }
 
 .caption{ 
+    margin-left: auto;
+    margin-right: auto;
     font-size:14px;
 }
     
@@ -339,14 +329,33 @@ h4 {
 /* Jackson Images
 source https://www.w3schools.com/howto/howto_css_image_center.asp
 */
-.jimg {
+.jimg, #db1, #db2 {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+.jimg {
     max-width: 600px; 
     max-height: 400px;
     width: 50%;
 }
+
+/* ID used to display treesurveydata.png in its native resolution */
+#db1 {
+    max-width: 842px;
+    max-height: 436px;
+    width: 70%;
+    height: auto;
+}
+
+/* ID used to display treedatabase.png in its native resolution */
+#db2 {
+    max-width: 868px;
+    max-height: 513px;
+    width: 70%;
+    height: auto;
+}
+
 
 /*
 - Owner: Jackson Mitchell
