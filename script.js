@@ -18,6 +18,7 @@ function hideSidebar(){
 function Modedark(){
 	var element = document.body;
 	element.classList.toggle("dark-mode");
+}
 // End of Thiluxsaan Puvanendran
 
 
