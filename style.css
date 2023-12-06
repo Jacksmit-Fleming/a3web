@@ -261,6 +261,8 @@ p{
 
 /* Owner: Tyler Rubini
    Date: Nov 22 2023 */
+
+/* Heavily modifies the footer. Adds colour to both the font and background, aligns the text to the centre, and adds padding. */
 footer {
     color: #f1fcff;
     font-family: sans-serif;
@@ -271,6 +273,8 @@ footer {
     position: relative;
     padding: 10px;
 }
+
+/* Modifies the h4 class to have a 10px upper margin, colorized text that is bolded, and an 18 point font size */
 h4 {
     margin-bottom: 0px;
     margin-top: 10px;
@@ -278,51 +282,46 @@ h4 {
     font-weight: bold;
     font-size: 18px;
 }
+
+/* Sets the colour and font size of the names in the footer. Also sets a 0px bottom margin to simulate a line break without an HTML tag */
 .name {
     margin-bottom: 0px;
     color: #f1fcff;
     font-size: 16px;
 }
+
+/* Sets the colour and font size of the email links in the footer. Also sets a 0px upper margin to simulate a line break without an HTML tag. */
 .email {
     margin-top: 0px;
     color: Gray;
     font-size: 16px;
 }
+
+/* Sets the width and text colour for the columns that make up the footer */
 .column {
     float: left;
     width: 20%;
     color: #f1fcff;
 }
+
+/* Creates a pseudo-element that resets the floats for any elements that come after this part of the footer */
 .row:after {
     content: "";
     display: table;
     clear: both;
 }
+
+/* Sets a 20px top margin and a 16 point font size for the line of text at the bottom of the footer. */
 #team {
     margin-top: 20px;
     font-size: 16px;
 }
 
+/* Sets margins and font size for photo captions */
 .caption{ 
     margin-left: auto;
     margin-right: auto;
     font-size:14px;
-}
-    
-/* End Owner: Tyler Rubini */
-
-/* Jackson Images
-source https://www.w3schools.com/howto/howto_css_image_center.asp
-*/
-.jimg, #db1, #db2 {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-.jimg {
-    max-width: 600px; 
-    max-height: 400px;
-    width: 50%;
 }
 
 /* ID used to display treesurveydata.png in its native resolution */
@@ -340,6 +339,7 @@ source https://www.w3schools.com/howto/howto_css_image_center.asp
     width: 70%;
     height: auto;
 }
+
 /* ID used to display tylerwebsite.png in its native resolution */
 #wd1 {
     max-width: 1116px;
@@ -363,6 +363,23 @@ source https://www.w3schools.com/howto/howto_css_image_center.asp
     height: auto;
     width: 85%;
 }
+    
+/* End Owner: Tyler Rubini */
+
+/* Jackson Images
+source https://www.w3schools.com/howto/howto_css_image_center.asp
+*/
+.jimg, #db1, #db2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.jimg {
+    max-width: 600px; 
+    max-height: 400px;
+    width: 50%;
+}
+
 #ac1 {
     max-width: 1000px;
     max-height: 625px;
