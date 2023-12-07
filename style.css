@@ -168,23 +168,28 @@ svg{
 .SA1{
     max-width: 470px;
     max-height: 300px;
+    width: 60%;
 }
 /* The following are the picture native resolution which is resized and holds its size while being shrinked*/
 .SA2{
     max-width: 477px;
     max-height: 300px;
+    width: 60%;
 }
 .SA3{
     max-width: 481px;
     max-height: 300px;
+    width: 60%;
 }
 .SA4Raster{
     max-width: 486px;
     max-height: 300px;
+    width: 60%;
 }
 .SA4Vector{
     max-width: 349px;
     max-height: 300px;
+    width: 60%;
 }
 /* The following are the picture native resolution which is resized and holds its size while being shrinked*/
 .GV1{
