@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title> GIS CONSULTANCY </title>
+    <link rel="Stylesheet" href="style.css"> 
+    <script src="script.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <!-------------------
+    - Owner : Rahul Saravanabavan
+    - Date  : Nov 28 (template)
+    - From  : https://www.w3schools.com/html/html_intro.asp
+    --------------------->
+    <header>
+        <nav>
+            <img src="img/gislogo.png" alt="GIS Logo" class="logo">
+	    <h1><a href="index.html">GeoLogic Innovations</a></h1>
+            <ul class="sidebar">
+                <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="35" viewBox="0 -960 960 960" width="35"><path d="m256-240-56-56 384-384H240v-80h480v480h-80v-344L256-240Z"/></svg></a></li>
+                <li><a href="cartography.html">Cartography</a></li>
+                <li><a href="programming.html" class="active-page">Programming</a></li>
+                <li><a href="surveying.html">Surveying And CAD Mapping</a></li>
+                <li><a href="databases.html">DataBase</a></li>
+                <li><a href="geodesy.html">Geodesy</a></li>
+                <li><a href="remotesensing.html">Remote Sensing</a></li>
+            </ul>
+		<button class = "button" onclick = "Modedark()">Dark Mode</button>
+	    <ul class="sub-menu">
+                <li><a href="programming.html">Web Design and Programming</a></li>
+                <li><a href="pythonprogramming.html" class="active-page">Problem Solving and Programming</a></li>
+            </ul>
+            <ul>
+                <li class="hide"><a href="cartography.html">Cartography</a></li>
+                <li class="hide"><a href="programming.html" class="active-page">Programming</a></li>
+                <li class="hide"><a href="surveying.html">Surveying And CAD Mapping</a></li>
+                <li class="hide"><a href="databases.html">DataBase</a></li>
+                <li class="hide"><a href="geodesy.html">Geodesy</a></li>
+                <li class="hide"><a href="remotesensing.html">Remote Sensing</a></li>
+                <li class="hamburger-button" onclick=showSidebar() ><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="35" viewBox="0 -960 960 960" width="35"><path d="M120-240v-80h520v80H120Zm664-40L584-480l200-200 56 56-144 144 144 144-56 56ZM120-440v-80h400v80H120Zm0-200v-80h520v80H120Z"/></svg></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!--*** End Owner: Rahul Saravanabavan *** -->
+	
+    <!-------------------
+    - Content Owner : Parkavi Shanmugam
+    - Date  : Dec 6th
+    --------------------->
+    <!-- The main content of this page includes a general overview of the skills and knowledge we gained from taking our python programming class. Each 
+	 subsection is under a separate div, then subdivided further using paragraph tags for readability purposes. -->
+    <div id="main-content">
+        <div class="section">
+            <h2>Problem Solving and Programming in Python</h2>
+            <img src="img/par_img1.jpg" id="py1" >
+            <h3>Overview</h3>
+            <p> 
+                Programming capabilities in GIS software allow users to process data and automate repetitive tasks. 
+                Often a few lines of code can save time or can accomplish tasks that would otherwise not be feasible. 
+                In this course students will develop their core problem solving and algorithm design skills and 
+                implement solutions in a current programming language. This course focusses on programming fundamentals that are applicable 
+                to many programming languages used in the Geospatial industry. This course also serves as the foundation to the other programming and 
+                technical courses in the GIS Specialist programs.
+            </p>
+        </div>
+        <div class="section">
+            <h3>A good algorithm should solve a problem:</h3>
+            <p> CORRECTLY,EFFICIENTLY, READABLY, And In a user-friendly fashion
+            </p>
+	        <h3> Problem solving process: </h3>
+            <div class ="par-list">
+                <ul>
+                    <li>Requirements - formalization of idea</li>
+                    <li>Specification - a detailed user’s view of the problem</li>
+                    <li>Algorithm - a programmer’s view of the problem (using structured logic)</li>
+                    <li>Test Algorithm (Desk Check) – step through the algorithm using actual data and determine if it gives desired results</li>
+                    <li>Implementation – coding of the algorithm in a programming language</li>
+                    <li>Test Application – to find errors and alter code to correct them (debug)</li>
+                    <li>Documentation – throughout the entire process</li>
+                    <li>Maintain and upgrade – as necessary</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--*** End Owner: Parkavi Shanmugam *** -->
+    	
+    <!------------------
+    - Owner : Tyler Rubini
+    - Date  : Nov 22 (template)
+    - From  : https://www.w3schools.com/tags/tag_footer.asp
+    -------------------->
+    <footer>
+        <div>
+        <h4>Our Team:</h4>
+        </div>
+        <!-- Instructions for column layout adapted from https://www.w3schools.com/howto/howto_css_four_columns.asp -->
+        <div class="row">
+            <div class="column">
+            <p class="name">Jackson Mitchell</p>
+            <a class="email" href="mailto:jacksmit@flemingcollege.ca">Email</a>
+            </div>
+            <div class="column">
+            <p class="name">Thiluxsaan Puvanendran</p>
+            <a class="email" href="mailto:thpuvane@flemingcollege.ca">Email</a>
+            </div>
+            <div class="column">
+            <p class="name">Tyler Rubini</p>
+            <a class="email" href="mailto:trubini@flemingcollege.ca">Email</a>
+            </div>
+            <div class="column">
+            <p class="name">Rahul Saravanabavan</p>
+            <a class="email" href="mailto:rsaravan@flemingcollege.ca">Email</a>
+            </div>
+            <div class="column">
+            <p class="name">Parkavi Shanmugam</p>
+            <a class="email" href="mailto:pashanmu@flemingcollege.ca">Email</a>
+            </div>
+        </div>
+        <div id="team">
+        All team members are currently attending Fleming College's GIS Application Specialist post-graduate program.
+        </div>
+    </footer>
+    <!--*** End Owner: Tyler Rubini *** -->
+
+</body>
+</html>
