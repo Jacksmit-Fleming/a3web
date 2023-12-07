@@ -549,3 +549,43 @@ source https://www.w3schools.com/howto/howto_css_image_center.asp
         width: 100%;
     }
 }
+/* Owner: Parkavi Shanmugam
+   Date: Dec 06 2023 */
+
+.par-list {
+    font-size:20px;
+    list-style-type: decimal;
+    padding: 20px;
+}
+#py1 {
+    max-width: 1600px;
+    max-height: 1200px;
+    height: auto;
+    width: 80%;
+}
+#rm1 {
+    max-width: 1443px;
+    max-height: 952px;
+    height: auto;
+    width: 80%;
+}
+#rm2 {
+    max-width: 1560px;
+    max-height: 691px;
+    height: auto;
+    width: 80%;
+}
+#rm3 {
+    max-width: 1560px;
+    max-height: 982px;
+    height: auto;
+    width: 80%;
+}
+#rm4 {
+    max-width: 1567px;
+    max-height: 855px;
+    height: auto;
+    width: 80%;
+}
+
+/* End Owner: Parkavi Shanmugam */
