@@ -27,13 +27,7 @@
                 <li><a href="geodesy.html">Geodesy</a></li>
                 <li><a href="remotesensing.html">Remote Sensing</a></li>
             </ul>
-		<!-----------------------------------------------------------------
-		- Owner: Thiluxsaan Puvanendran
-		-Date: Nov 07 (template)
-		-From: https://www.w3schools.com/howto/howto_js_toggle_dark_mode.asp
-		-------------------------------------------------------------------->
 		<button class = "button" onclick = "Modedark()">Dark Mode</button>
-		<!------------***End Owner: Thiluxsaan Puvanendran***------------>
             <ul>
                 <li class="hide"><a href="cartography.html">Cartography</a></li>
                 <li class="hide"><a href="programming.html">Programming</a></li>
@@ -53,6 +47,7 @@
     - Content Owner : Parkavi Shanmugam
     - Date  : Dec 6th
     --------------------->
+    <!-- Reference Source: GEOM66, Remote Sensing and Image Analysis (Course Outline)-Frank Kenny  -->
     <div id="main-content">
         <div class="section">
             <h2>Remote Sensing and Image Analysis</h2>
@@ -64,19 +59,31 @@
                 atmospheric correction, image classification techniques, and understanding how atmospheric conditions affect the quality of imagery.
             </p>
         </div>
+        <!-- Reference Notes: GEOM66, Remote Sensing and Image Analysis (Week2- ElectroMagneticSpectrum)-Frank Kenny  -->
         <div class="section">
             <h3>Visible and Red Near Infrared Spectral Responses of Common Earth Targets
             </h3>
-            <img src="img/remo1.png" class="rm1">
+            <img src="img/remo1.png" alt = "Graphical representation of Spectral Responses of Common Earth Targets against the Spectral band values " id="rm1">
             <p> 
-                As a part of our program of study, we were asked to create a data collection model in ArcGIS Survey123 to input and store a mix of qualitative and quantitative tree data. This included unmodified parameters such 
-		        as the species of tree, the percentage of deadwood in the canopy, and the tree's longitude and latitude coordinates, as well as a calculated field for the tree's diameter at breast height (which required 
-		        circumference as an input). We collected data on over 100 trees, which was collated with data from the rest of our colleagues in order to create a final dataset containing over 1000 total trees located 
-		        in different parts of the country.
+                Temporal and spatial effects can affect the spectral
+                response patterns of objects and have to be evaluated
+                in image interpretation. At some wavelengths, sand
+                reflects more energy than green
+                vegetation but at other
+                wavelengths it absorbs more
+                (reflects less) than does the
+                vegetation.
+                In principle, we can recognize
+                various kinds of surface
+                materials and distinguish them
+                from each other by these
+                differences in reflectance
             </p>
+            <!-- Reference Notes: GEOM66, Remote Sensing and Image Analysis (Week3- Spectralproperties)-Frank Kenny  -->
 		    <h3>Commonly Employed Satellite Multispectral Sources
                 For Earth Observation Mapping and Monitoring</h3>
-                <img src="img/remo2.png" class="rm2">
+                <img src="img/remo2.png" alt = "Graphical representation of Satellite Multispectral Sources against the Atmospheric Transmission " id="rm2">
+                <!-- The div element with class name par-list creates a block for the list provided inside with the style from css -->
                 <div class ="par-list">
                     <ul>
                         <li>Landsat 7 and 8 (NASA/USGS)</li>
@@ -89,10 +96,19 @@
                     Landsat (1 - 8) Satellites (1972 – Present) 
                     48 Years of Global Imagery!
                 </h3>
-                <img src="img/remo3.png" class="rm3">
-            <h3>THE SEVEN BANDS OF LANDSAT THEMATIC MAPPER (TM) BRUCE PENISULA, ONTARIO </h3>
-            <p>Note the Near Infrared Response in the Forested Areas.</p>
-            <img src="img/remo4.png" class="rm2">
+                <img src="img/remo3.png" alt="The Sensors and Spectral Bands On-Board the Various 
+                Landsat (1 - 8) Satellites (1972 – Present) 
+                48 Years of Global Imagery" id="rm3">
+                <p>The ASTER satellite sensor is one of the five state-of-the-art
+                    instrument sensor systems on-board the Terra satellite,
+                    launched on December 18, 1999 in a sun synchronous orbit.
+                    Joint project of U.S. NASA and Japan Ministry of Economy,
+                    Trade, and Industry</p>
+                <h3>THE SEVEN BANDS OF LANDSAT THEMATIC MAPPER (TM) BRUCE PENISULA, ONTARIO </h3>
+                <p>Note the Near Infrared Response in the Forested Areas.</p>
+                <img src="img/remo4.png" alt="THE SEVEN BANDS OF LANDSAT THEMATIC MAPPER (TM) BRUCE PENISULA, ONTARIO" id="rm2">
+                <p>The Standard False Colour Composite (R:BND4, G:BND3, B:BND2) Variates the Vegetation from rest of the features and 
+                    shows Spectral Differences Between Deciduous and Coniferous</p>
         </div>
     </div>
    <!--*** End Owner: Parkavi Shanmugam *** -->
