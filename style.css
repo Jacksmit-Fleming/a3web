@@ -79,6 +79,7 @@ nav ul li a:hover{
 }
 /* For the logo we have made it look rounder */
 .logo{
+    margin: 0px;
     border-radius: 50%;
     padding-left: 10px;
 }
