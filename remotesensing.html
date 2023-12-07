@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title> GIS DATABASE PRINCIPLES </title>
+    <link rel="Stylesheet" href="style.css"> 
+    <script src="script.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <!-------------------
+    - Owner : Rahul Saravanabavan
+    - Date  : Nov 28 (template)
+    - From  : https://www.w3schools.com/html/html_intro.asp
+    --------------------->
+<header>
+        <nav>
+            <img src="img/gislogo.png" alt="GIS Logo" class="logo">
+	    <h1><a href="index.html">GeoLogic Innovations</a></h1>
+            <ul class="sidebar">
+                <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="35" viewBox="0 -960 960 960" width="35"><path d="m256-240-56-56 384-384H240v-80h480v480h-80v-344L256-240Z"/></svg></a></li>
+                <li><a href="cartography.html">Cartography</a></li>
+                <li><a href="programming.html">Programming</a></li>
+                <li><a href="surveying.html">Surveying And CAD Mapping</a></li>
+                <li><a href="databases.html" class="active-page">DataBase</a></li>
+                <li><a href="geodesy.html">Geodesy</a></li>
+                <li><a href="remotesensing.html">Remote Sensing</a></li>
+            </ul>
+		<button class = "button" onclick = "Modedark()">Dark Mode</button>
+            <ul>
+                <li class="hide"><a href="cartography.html">Cartography</a></li>
+                <li class="hide"><a href="programming.html">Programming</a></li>
+                <li class="hide"><a href="surveying.html">Surveying And CAD Mapping</a></li>
+                <li class="hide"><a href="databases.html">DataBase</a></li>
+                <li class="hide"><a href="geodesy.html">Geodesy</a></li>
+                <li class="hide"><a href="remotesensing.html" class="active-page">Remote Sensing</a></li>
+                <li class="hamburger-button" onclick=showSidebar() ><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="35" viewBox="0 -960 960 960" width="35"><path d="M120-240v-80h520v80H120Zm664-40L584-480l200-200 56 56-144 144 144 144-56 56ZM120-440v-80h400v80H120Zm0-200v-80h520v80H120Z"/></svg></a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <!--*** End Owner: Rahul Saravanabavan *** -->
+	
+    <!-------------------
+    - Content Owner : Parkavi Shanmugam
+    - Date  : Dec 6th
+    --------------------->
+    <div id="main-content">
+        <div class="section">
+            <h2>Remote Sensing and Image Analysis</h2>
+            <h3>Overview</h3>
+            <p> 
+                This course introduces the basic interpretation and measurement of physical, biological, and cultural features from satellite and aerial imagery. 
+                Basic photogrammetry concepts will be examined and practiced in scale determination, height, and measurement. 
+                Other concepts introduced include understanding the electromagnetic spectrum, working with raster data, geometric correction, 
+                atmospheric correction, image classification techniques, and understanding how atmospheric conditions affect the quality of imagery.
+            </p>
+        </div>
+        <div class="section">
+            <h3>Visible and Red Near Infrared Spectral Responses of Common Earth Targets
+            </h3>
+            <img src="img/remo1.png" id="rm1">
+            <p> 
+                As a part of our program of study, we were asked to create a data collection model in ArcGIS Survey123 to input and store a mix of qualitative and quantitative tree data. This included unmodified parameters such 
+		        as the species of tree, the percentage of deadwood in the canopy, and the tree's longitude and latitude coordinates, as well as a calculated field for the tree's diameter at breast height (which required 
+		        circumference as an input). We collected data on over 100 trees, which was collated with data from the rest of our colleagues in order to create a final dataset containing over 1000 total trees located 
+		        in different parts of the country.
+            </p>
+		    <h3>Commonly Employed Satellite Multispectral Sources
+                For Earth Observation Mapping and Monitoring</h3>
+                <img src="img/remo2.png" id="rm2">
+                <div class ="par-list">
+                    <ul>
+                        <li>Landsat 7 and 8 (NASA/USGS)</li>
+                        <li> Sentinel 2A/2B (ESA)</li>
+                        <li>ASTER – (Advanced Spaceborne Thermal Emission and Reflection Radiometer) NASA, Japan's Ministry of Economy, Trade and Industry (METI) </li>
+                        <li>MODIS – (Moderate Resolution Imaging Spectroradiometer) - NASA </li>
+                    </ul>
+                </div>
+	            <h3>The Sensors and Spectral Bands On-Board the Various 
+                    Landsat (1 - 8) Satellites (1972 – Present) 
+                    48 Years of Global Imagery!
+                </h3>
+                <img src="img/remo3.png" id="rm3">
+            <h3>THE SEVEN BANDS OF LANDSAT THEMATIC MAPPER (TM) BRUCE PENISULA, ONTARIO </h3>
+            <p>Note the Near Infrared Response in the Forested Areas.</p>
+            <img src="img/remo4.png" id="rm2">
+        </div>
+    </div>
+   <!--*** End Owner: Parkavi Shanmugam *** -->
+    	
+    <!------------------
+    - Owner : Tyler Rubini
+    - Date  : Nov 22 (template)
+    - From  : https://www.w3schools.com/tags/tag_footer.asp
+    -------------------->
+    <footer>
+        <div>
+        <h4>Our Team:</h4>
+        </div>
+        <!-- Instructions for column layout adapted from https://www.w3schools.com/howto/howto_css_four_columns.asp -->
+        <div class="row">
+            <div class="column">
+            <p class="name">Jackson Mitchell</p>
+            <a class="email" href="mailto:jacksmit@flemingcollege.ca">Email</a>
+            </div>
+            <div class="column">
+            <p class="name">Thiluxsaan Puvanendran</p>
+            <a class="email" href="mailto:thpuvane@flemingcollege.ca">Email</a>
+            </div>
+            <div class="column">
+            <p class="name">Tyler Rubini</p>
+            <a class="email" href="mailto:trubini@flemingcollege.ca">Email</a>
+            </div>
+            <div class="column">
+            <p class="name">Rahul Saravanabavan</p>
+            <a class="email" href="mailto:rsaravan@flemingcollege.ca">Email</a>
+            </div>
+            <div class="column">
+            <p class="name">Parkavi Shanmugam</p>
+            <a class="email" href="mailto:pashanmu@flemingcollege.ca">Email</a>
+            </div>
+        </div>
+        <div id="team">
+        All team members are currently attending Fleming College's GIS Application Specialist post-graduate program.
+        </div>
+    </footer>
+    <!--*** End Owner: Tyler Rubini *** -->
+
+</body>
+</html>
