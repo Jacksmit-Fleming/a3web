@@ -195,27 +195,33 @@ svg{
 .GV1{
     max-width: 466px;
     max-height: 300px;
+    width: 60%;
 }
 .GV2,.GV3{
     max-width: 463px;
     max-height: 300px;
+    width: 60%;
 }
 .GV4{
     max-width: 460px;
     max-height: 300px;
+    width: 60%;
 }
 /* The following are the picture native resolution which is resized and holds its size while being shrinked*/
 .AI1{
     max-width: 466px;
     max-height: 300px;
+    width: 60%;
 }
 .AI2{
     max-width: 464px;
     max-height: 300px;
+    width: 60%;
 }
 .AI3Quality,.AI3Quality{
     max-width: 463px;
     max-height: 300px;
+    width: 60%;
 }
 /* End Owner: Rahul Saravanabavan */
 
